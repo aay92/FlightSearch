@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B7B02B72C065303004B4885 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02B62C065303004B4885 /* AppDelegate.swift */; };
+		5B7B02B92C065303004B4885 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02B82C065303004B4885 /* SceneDelegate.swift */; };
+		5B7B02BB2C065303004B4885 /* AirTicketsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02BA2C065303004B4885 /* AirTicketsVC.swift */; };
+		5B7B02C02C065305004B4885 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B7B02BF2C065305004B4885 /* Assets.xcassets */; };
+		5B7B02C32C065305004B4885 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5B7B02C22C065305004B4885 /* Base */; };
+		5B7B02D12C0654B5004B4885 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02D02C0654B5004B4885 /* Coordinator.swift */; };
+		5B7B02D32C0654DB004B4885 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02D22C0654DB004B4885 /* AppCoordinator.swift */; };
+		5B7B02D62C065567004B4885 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02D52C065567004B4885 /* TabBarController.swift */; };
+		5B7B02D92C0655B2004B4885 /* SceneFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02D82C0655B2004B4885 /* SceneFactory.swift */; };
+		5B7B02DC2C065A27004B4885 /* AirTicketCoordiantor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02DB2C065A27004B4885 /* AirTicketCoordiantor.swift */; };
+		5B7B02DE2C075611004B4885 /* HotelsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02DD2C075611004B4885 /* HotelsCoordinator.swift */; };
+		5B7B02E12C07565C004B4885 /* HotelsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02E02C07565C004B4885 /* HotelsVC.swift */; };
+		5B7B02E42C0756C2004B4885 /* QiuckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02E32C0756C2004B4885 /* QiuckVC.swift */; };
+		5B7B02E72C075718004B4885 /* SubscriptionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02E62C075718004B4885 /* SubscriptionsVC.swift */; };
+		5B7B02EA2C0757A3004B4885 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02E92C0757A3004B4885 /* ProfileVC.swift */; };
+		5B7B02EC2C07585E004B4885 /* QuickCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02EB2C07585E004B4885 /* QuickCoordinator.swift */; };
+		5B7B02EE2C075893004B4885 /* SubscriptionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02ED2C075893004B4885 /* SubscriptionCoordinator.swift */; };
+		5B7B02F02C075990004B4885 /* PrifileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02EF2C075990004B4885 /* PrifileCoordinator.swift */; };
+		5B7B02F32C075E72004B4885 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02F22C075E72004B4885 /* AppColors.swift */; };
+		5B7B02F62C075EAE004B4885 /* UIColor + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02F52C075EAE004B4885 /* UIColor + Ext.swift */; };
+		5B7B02FC2C07AD56004B4885 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B02FB2C07AD56004B4885 /* SearchView.swift */; };
+		5B7B03012C08AB76004B4885 /* AirTicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03002C08AB76004B4885 /* AirTicketCell.swift */; };
+		5B7B03042C0A41C5004B4885 /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03032C0A41C5004B4885 /* SearchVC.swift */; };
+		5B7B03062C0A41E3004B4885 /* SearchViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03052C0A41E3004B4885 /* SearchViewCoordinator.swift */; };
+		5B7B03092C0A56B7004B4885 /* BlockInputFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03082C0A56B7004B4885 /* BlockInputFields.swift */; };
+		5B7B030B2C0A65F1004B4885 /* BlockChoose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B030A2C0A65F1004B4885 /* BlockChoose.swift */; };
+		5B7B030D2C0A6842004B4885 /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B030C2C0A6842004B4885 /* ItemData.swift */; };
+		5B7B03102C0DFDC0004B4885 /* BlockChooseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B030F2C0DFDC0004B4885 /* BlockChooseCell.swift */; };
+		5B7B03122C0F8D88004B4885 /* UIImage + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03112C0F8D88004B4885 /* UIImage + Ext.swift */; };
+		5B7B03152C0F9E50004B4885 /* SearchWhenCountrySelectedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03142C0F9E50004B4885 /* SearchWhenCountrySelectedVC.swift */; };
+		5B7B03172C0F9EB9004B4885 /* SearchWhenCountrySelectedCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03162C0F9EB9004B4885 /* SearchWhenCountrySelectedCoordinator.swift */; };
+		5B7B031A2C0F9F9A004B4885 /* BlockInputCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03192C0F9F9A004B4885 /* BlockInputCountry.swift */; };
+		5B7B031D2C13141A004B4885 /* SearchViewTagCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B031C2C13141A004B4885 /* SearchViewTagCell.swift */; };
+		5B7B031F2C131438004B4885 /* SearchViewSearchViewHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B031E2C131438004B4885 /* SearchViewSearchViewHelper.swift */; };
+		5B7B03212C138BC6004B4885 /* SearchCellHeder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03202C138BC6004B4885 /* SearchCellHeder.swift */; };
+		5B7B03232C15A2D2004B4885 /* SwitchBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03222C15A2D2004B4885 /* SwitchBoxView.swift */; };
+		5B7B03262C16EDFE004B4885 /* ShowAllTicketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03252C16EDFE004B4885 /* ShowAllTicketVC.swift */; };
+		5B7B03282C175256004B4885 /* ShowAllTicketCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03272C175256004B4885 /* ShowAllTicketCoordinator.swift */; };
+		5B7B032B2C175405004B4885 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B032A2C175405004B4885 /* HeaderView.swift */; };
+		5B7B03302C199231004B4885 /* ShowAllTicketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B032F2C199231004B4885 /* ShowAllTicketCell.swift */; };
+		5B7B03332C19A61B004B4885 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03322C19A61B004B4885 /* NetworkService.swift */; };
+		5B7B03352C19A637004B4885 /* NetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03342C19A637004B4885 /* NetModel.swift */; };
+		5B7B03372C1B282F004B4885 /* AirTicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03362C1B282F004B4885 /* AirTicketViewModel.swift */; };
+		5B7B03392C1B68DF004B4885 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03382C1B68DF004B4885 /* SearchViewModel.swift */; };
+		5B7B033B2C1B6985004B4885 /* SearchWhenCountrySelectedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B033A2C1B6985004B4885 /* SearchWhenCountrySelectedViewModel.swift */; };
+		5B7B033D2C1C674D004B4885 /* ShowAllTicketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B033C2C1C674D004B4885 /* ShowAllTicketViewModel.swift */; };
+		5B7B03412C1D94FE004B4885 /* Double + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03402C1D94FE004B4885 /* Double + Ext.swift */; };
+		5B7B03432C1D9EB3004B4885 /* UIViewController + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03422C1D9EB3004B4885 /* UIViewController + Ext.swift */; };
+		5B7B03452C1DC6E1004B4885 /* FilterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7B03442C1DC6E1004B4885 /* FilterButton.swift */; };
+		5BBA4E5B2C1EE30B005363D6 /* Date + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BBA4E5A2C1EE30B005363D6 /* Date + Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B7B02B32C065303004B4885 /* FlightSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlightSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7B02B62C065303004B4885 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B7B02B82C065303004B4885 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B7B02BA2C065303004B4885 /* AirTicketsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketsVC.swift; sourceTree = "<group>"; };
+		5B7B02BF2C065305004B4885 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B7B02C22C065305004B4885 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B7B02C42C065305004B4885 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B7B02D02C0654B5004B4885 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		5B7B02D22C0654DB004B4885 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		5B7B02D52C065567004B4885 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		5B7B02D82C0655B2004B4885 /* SceneFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneFactory.swift; sourceTree = "<group>"; };
+		5B7B02DB2C065A27004B4885 /* AirTicketCoordiantor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketCoordiantor.swift; sourceTree = "<group>"; };
+		5B7B02DD2C075611004B4885 /* HotelsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsCoordinator.swift; sourceTree = "<group>"; };
+		5B7B02E02C07565C004B4885 /* HotelsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelsVC.swift; sourceTree = "<group>"; };
+		5B7B02E32C0756C2004B4885 /* QiuckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiuckVC.swift; sourceTree = "<group>"; };
+		5B7B02E62C075718004B4885 /* SubscriptionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsVC.swift; sourceTree = "<group>"; };
+		5B7B02E92C0757A3004B4885 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		5B7B02EB2C07585E004B4885 /* QuickCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickCoordinator.swift; sourceTree = "<group>"; };
+		5B7B02ED2C075893004B4885 /* SubscriptionCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionCoordinator.swift; sourceTree = "<group>"; };
+		5B7B02EF2C075990004B4885 /* PrifileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrifileCoordinator.swift; sourceTree = "<group>"; };
+		5B7B02F22C075E72004B4885 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		5B7B02F52C075EAE004B4885 /* UIColor + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Ext.swift"; sourceTree = "<group>"; };
+		5B7B02FB2C07AD56004B4885 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		5B7B03002C08AB76004B4885 /* AirTicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketCell.swift; sourceTree = "<group>"; };
+		5B7B03032C0A41C5004B4885 /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		5B7B03052C0A41E3004B4885 /* SearchViewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewCoordinator.swift; sourceTree = "<group>"; };
+		5B7B03082C0A56B7004B4885 /* BlockInputFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockInputFields.swift; sourceTree = "<group>"; };
+		5B7B030A2C0A65F1004B4885 /* BlockChoose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockChoose.swift; sourceTree = "<group>"; };
+		5B7B030C2C0A6842004B4885 /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
+		5B7B030F2C0DFDC0004B4885 /* BlockChooseCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockChooseCell.swift; sourceTree = "<group>"; };
+		5B7B03112C0F8D88004B4885 /* UIImage + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage + Ext.swift"; sourceTree = "<group>"; };
+		5B7B03142C0F9E50004B4885 /* SearchWhenCountrySelectedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWhenCountrySelectedVC.swift; sourceTree = "<group>"; };
+		5B7B03162C0F9EB9004B4885 /* SearchWhenCountrySelectedCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWhenCountrySelectedCoordinator.swift; sourceTree = "<group>"; };
+		5B7B03192C0F9F9A004B4885 /* BlockInputCountry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockInputCountry.swift; sourceTree = "<group>"; };
+		5B7B031C2C13141A004B4885 /* SearchViewTagCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewTagCell.swift; sourceTree = "<group>"; };
+		5B7B031E2C131438004B4885 /* SearchViewSearchViewHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewSearchViewHelper.swift; sourceTree = "<group>"; };
+		5B7B03202C138BC6004B4885 /* SearchCellHeder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCellHeder.swift; sourceTree = "<group>"; };
+		5B7B03222C15A2D2004B4885 /* SwitchBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchBoxView.swift; sourceTree = "<group>"; };
+		5B7B03252C16EDFE004B4885 /* ShowAllTicketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAllTicketVC.swift; sourceTree = "<group>"; };
+		5B7B03272C175256004B4885 /* ShowAllTicketCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAllTicketCoordinator.swift; sourceTree = "<group>"; };
+		5B7B032A2C175405004B4885 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5B7B032F2C199231004B4885 /* ShowAllTicketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAllTicketCell.swift; sourceTree = "<group>"; };
+		5B7B03322C19A61B004B4885 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5B7B03342C19A637004B4885 /* NetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetModel.swift; sourceTree = "<group>"; };
+		5B7B03362C1B282F004B4885 /* AirTicketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirTicketViewModel.swift; sourceTree = "<group>"; };
+		5B7B03382C1B68DF004B4885 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		5B7B033A2C1B6985004B4885 /* SearchWhenCountrySelectedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchWhenCountrySelectedViewModel.swift; sourceTree = "<group>"; };
+		5B7B033C2C1C674D004B4885 /* ShowAllTicketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAllTicketViewModel.swift; sourceTree = "<group>"; };
+		5B7B03402C1D94FE004B4885 /* Double + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double + Ext.swift"; sourceTree = "<group>"; };
+		5B7B03422C1D9EB3004B4885 /* UIViewController + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Ext.swift"; sourceTree = "<group>"; };
+		5B7B03442C1DC6E1004B4885 /* FilterButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterButton.swift; sourceTree = "<group>"; };
+		5BBA4E5A2C1EE30B005363D6 /* Date + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B7B02B02C065303004B4885 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B7B02AA2C065303004B4885 = {
+			isa = PBXGroup;
+			children = (
+				5B7B02B52C065303004B4885 /* FlightSearch */,
+				5B7B02B42C065303004B4885 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B7B02B42C065303004B4885 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02B32C065303004B4885 /* FlightSearch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B7B02B52C065303004B4885 /* FlightSearch */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B03312C19A5F6004B4885 /* NetworckService */,
+				5B7B02F12C075E64004B4885 /* Resurces */,
+				5B7B02D72C065592004B4885 /* Factory */,
+				5B7B02D42C06550E004B4885 /* Controllers */,
+				5B7B02CA2C0653C3004B4885 /* Application */,
+				5B7B02CD2C0653E6004B4885 /* Cooordinator */,
+				5B7B02CB2C0653D0004B4885 /* Moduls */,
+				5B7B02CF2C06543D004B4885 /* Model */,
+				5B7B02CE2C0653EF004B4885 /* SupportingFiles */,
+			);
+			path = FlightSearch;
+			sourceTree = "<group>";
+		};
+		5B7B02CA2C0653C3004B4885 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02B62C065303004B4885 /* AppDelegate.swift */,
+				5B7B02B82C065303004B4885 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5B7B02CB2C0653D0004B4885 /* Moduls */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02CC2C0653D8004B4885 /* MianModul */,
+			);
+			path = Moduls;
+			sourceTree = "<group>";
+		};
+		5B7B02CC2C0653D8004B4885 /* MianModul */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B03242C16EDE8004B4885 /* ShowAllTicket */,
+				5B7B03132C0F9E37004B4885 /* SearchWhenCountrySelected */,
+				5B7B03022C0A419F004B4885 /* SearchModalView */,
+				5B7B02F72C07A5C5004B4885 /* AirTicketsViews */,
+				5B7B02E02C07565C004B4885 /* HotelsVC.swift */,
+				5B7B02E32C0756C2004B4885 /* QiuckVC.swift */,
+				5B7B02E62C075718004B4885 /* SubscriptionsVC.swift */,
+				5B7B02E92C0757A3004B4885 /* ProfileVC.swift */,
+			);
+			path = MianModul;
+			sourceTree = "<group>";
+		};
+		5B7B02CD2C0653E6004B4885 /* Cooordinator */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02D02C0654B5004B4885 /* Coordinator.swift */,
+				5B7B02D22C0654DB004B4885 /* AppCoordinator.swift */,
+				5B7B02DA2C065A13004B4885 /* CordinatorsVC */,
+			);
+			path = Cooordinator;
+			sourceTree = "<group>";
+		};
+		5B7B02CE2C0653EF004B4885 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02BF2C065305004B4885 /* Assets.xcassets */,
+				5B7B02C12C065305004B4885 /* LaunchScreen.storyboard */,
+				5B7B02C42C065305004B4885 /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5B7B02CF2C06543D004B4885 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B030C2C0A6842004B4885 /* ItemData.swift */,
+				5B7B03342C19A637004B4885 /* NetModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5B7B02D42C06550E004B4885 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02D52C065567004B4885 /* TabBarController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B7B02D72C065592004B4885 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02D82C0655B2004B4885 /* SceneFactory.swift */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		5B7B02DA2C065A13004B4885 /* CordinatorsVC */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02DB2C065A27004B4885 /* AirTicketCoordiantor.swift */,
+				5B7B03052C0A41E3004B4885 /* SearchViewCoordinator.swift */,
+				5B7B03272C175256004B4885 /* ShowAllTicketCoordinator.swift */,
+				5B7B03162C0F9EB9004B4885 /* SearchWhenCountrySelectedCoordinator.swift */,
+				5B7B02DD2C075611004B4885 /* HotelsCoordinator.swift */,
+				5B7B02EB2C07585E004B4885 /* QuickCoordinator.swift */,
+				5B7B02ED2C075893004B4885 /* SubscriptionCoordinator.swift */,
+				5B7B02EF2C075990004B4885 /* PrifileCoordinator.swift */,
+			);
+			path = CordinatorsVC;
+			sourceTree = "<group>";
+		};
+		5B7B02F12C075E64004B4885 /* Resurces */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02F42C075E9B004B4885 /* Extansion */,
+				5B7B02F22C075E72004B4885 /* AppColors.swift */,
+			);
+			path = Resurces;
+			sourceTree = "<group>";
+		};
+		5B7B02F42C075E9B004B4885 /* Extansion */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02F52C075EAE004B4885 /* UIColor + Ext.swift */,
+				5B7B03112C0F8D88004B4885 /* UIImage + Ext.swift */,
+				5B7B03402C1D94FE004B4885 /* Double + Ext.swift */,
+				5B7B03422C1D9EB3004B4885 /* UIViewController + Ext.swift */,
+				5BBA4E5A2C1EE30B005363D6 /* Date + Ext.swift */,
+			);
+			path = Extansion;
+			sourceTree = "<group>";
+		};
+		5B7B02F72C07A5C5004B4885 /* AirTicketsViews */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02BA2C065303004B4885 /* AirTicketsVC.swift */,
+				5B7B03362C1B282F004B4885 /* AirTicketViewModel.swift */,
+				5B7B02F82C07A5E7004B4885 /* Parts */,
+				5B7B02FF2C08AB5A004B4885 /* AirTacketsCollectionViewCell */,
+			);
+			path = AirTicketsViews;
+			sourceTree = "<group>";
+		};
+		5B7B02F82C07A5E7004B4885 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B02FB2C07AD56004B4885 /* SearchView.swift */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
+		5B7B02FF2C08AB5A004B4885 /* AirTacketsCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B03002C08AB76004B4885 /* AirTicketCell.swift */,
+			);
+			path = AirTacketsCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		5B7B03022C0A419F004B4885 /* SearchModalView */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B03072C0A56A8004B4885 /* Parts */,
+				5B7B03032C0A41C5004B4885 /* SearchVC.swift */,
+				5B7B03382C1B68DF004B4885 /* SearchViewModel.swift */,
+			);
+			path = SearchModalView;
+			sourceTree = "<group>";
+		};
+		5B7B03072C0A56A8004B4885 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B030E2C0DFDA0004B4885 /* BlockChooseCell */,
+				5B7B03082C0A56B7004B4885 /* BlockInputFields.swift */,
+				5B7B030A2C0A65F1004B4885 /* BlockChoose.swift */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
+		5B7B030E2C0DFDA0004B4885 /* BlockChooseCell */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B030F2C0DFDC0004B4885 /* BlockChooseCell.swift */,
+			);
+			path = BlockChooseCell;
+			sourceTree = "<group>";
+		};
+		5B7B03132C0F9E37004B4885 /* SearchWhenCountrySelected */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B03182C0F9F7F004B4885 /* Parts */,
+				5B7B03142C0F9E50004B4885 /* SearchWhenCountrySelectedVC.swift */,
+				5B7B033A2C1B6985004B4885 /* SearchWhenCountrySelectedViewModel.swift */,
+			);
+			path = SearchWhenCountrySelected;
+			sourceTree = "<group>";
+		};
+		5B7B03182C0F9F7F004B4885 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B031B2C1313DF004B4885 /* SearchWhenCountrySelectedCell */,
+				5B7B03192C0F9F9A004B4885 /* BlockInputCountry.swift */,
+				5B7B03222C15A2D2004B4885 /* SwitchBoxView.swift */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
+		5B7B031B2C1313DF004B4885 /* SearchWhenCountrySelectedCell */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B031C2C13141A004B4885 /* SearchViewTagCell.swift */,
+				5B7B03202C138BC6004B4885 /* SearchCellHeder.swift */,
+				5B7B031E2C131438004B4885 /* SearchViewSearchViewHelper.swift */,
+			);
+			path = SearchWhenCountrySelectedCell;
+			sourceTree = "<group>";
+		};
+		5B7B03242C16EDE8004B4885 /* ShowAllTicket */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B032C2C1991C5004B4885 /* ShowAllTicketCell */,
+				5B7B03292C1753ED004B4885 /* Parts */,
+				5B7B03252C16EDFE004B4885 /* ShowAllTicketVC.swift */,
+				5B7B033C2C1C674D004B4885 /* ShowAllTicketViewModel.swift */,
+			);
+			path = ShowAllTicket;
+			sourceTree = "<group>";
+		};
+		5B7B03292C1753ED004B4885 /* Parts */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B032A2C175405004B4885 /* HeaderView.swift */,
+				5B7B03442C1DC6E1004B4885 /* FilterButton.swift */,
+			);
+			path = Parts;
+			sourceTree = "<group>";
+		};
+		5B7B032C2C1991C5004B4885 /* ShowAllTicketCell */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B032F2C199231004B4885 /* ShowAllTicketCell.swift */,
+			);
+			path = ShowAllTicketCell;
+			sourceTree = "<group>";
+		};
+		5B7B03312C19A5F6004B4885 /* NetworckService */ = {
+			isa = PBXGroup;
+			children = (
+				5B7B03322C19A61B004B4885 /* NetworkService.swift */,
+			);
+			path = NetworckService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B7B02B22C065303004B4885 /* FlightSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B7B02C72C065305004B4885 /* Build configuration list for PBXNativeTarget "FlightSearch" */;
+			buildPhases = (
+				5B7B02AF2C065303004B4885 /* Sources */,
+				5B7B02B02C065303004B4885 /* Frameworks */,
+				5B7B02B12C065303004B4885 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlightSearch;
+			productName = FlightSearch;
+			productReference = 5B7B02B32C065303004B4885 /* FlightSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B7B02AB2C065303004B4885 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					5B7B02B22C065303004B4885 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 5B7B02AE2C065303004B4885 /* Build configuration list for PBXProject "FlightSearch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B7B02AA2C065303004B4885;
+			productRefGroup = 5B7B02B42C065303004B4885 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B7B02B22C065303004B4885 /* FlightSearch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B7B02B12C065303004B4885 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7B02C02C065305004B4885 /* Assets.xcassets in Resources */,
+				5B7B02C32C065305004B4885 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B7B02AF2C065303004B4885 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7B02FC2C07AD56004B4885 /* SearchView.swift in Sources */,
+				5B7B031A2C0F9F9A004B4885 /* BlockInputCountry.swift in Sources */,
+				5B7B02D12C0654B5004B4885 /* Coordinator.swift in Sources */,
+				5B7B03152C0F9E50004B4885 /* SearchWhenCountrySelectedVC.swift in Sources */,
+				5B7B03102C0DFDC0004B4885 /* BlockChooseCell.swift in Sources */,
+				5B7B03372C1B282F004B4885 /* AirTicketViewModel.swift in Sources */,
+				5B7B03062C0A41E3004B4885 /* SearchViewCoordinator.swift in Sources */,
+				5B7B02F62C075EAE004B4885 /* UIColor + Ext.swift in Sources */,
+				5B7B02DC2C065A27004B4885 /* AirTicketCoordiantor.swift in Sources */,
+				5B7B02F02C075990004B4885 /* PrifileCoordinator.swift in Sources */,
+				5B7B03282C175256004B4885 /* ShowAllTicketCoordinator.swift in Sources */,
+				5B7B03332C19A61B004B4885 /* NetworkService.swift in Sources */,
+				5B7B031F2C131438004B4885 /* SearchViewSearchViewHelper.swift in Sources */,
+				5B7B03122C0F8D88004B4885 /* UIImage + Ext.swift in Sources */,
+				5B7B02EC2C07585E004B4885 /* QuickCoordinator.swift in Sources */,
+				5B7B03352C19A637004B4885 /* NetModel.swift in Sources */,
+				5B7B03432C1D9EB3004B4885 /* UIViewController + Ext.swift in Sources */,
+				5B7B02BB2C065303004B4885 /* AirTicketsVC.swift in Sources */,
+				5B7B02E12C07565C004B4885 /* HotelsVC.swift in Sources */,
+				5B7B02F32C075E72004B4885 /* AppColors.swift in Sources */,
+				5B7B02D92C0655B2004B4885 /* SceneFactory.swift in Sources */,
+				5B7B03172C0F9EB9004B4885 /* SearchWhenCountrySelectedCoordinator.swift in Sources */,
+				5B7B03092C0A56B7004B4885 /* BlockInputFields.swift in Sources */,
+				5B7B033D2C1C674D004B4885 /* ShowAllTicketViewModel.swift in Sources */,
+				5B7B030D2C0A6842004B4885 /* ItemData.swift in Sources */,
+				5B7B02EE2C075893004B4885 /* SubscriptionCoordinator.swift in Sources */,
+				5B7B02D32C0654DB004B4885 /* AppCoordinator.swift in Sources */,
+				5B7B03232C15A2D2004B4885 /* SwitchBoxView.swift in Sources */,
+				5B7B03042C0A41C5004B4885 /* SearchVC.swift in Sources */,
+				5B7B032B2C175405004B4885 /* HeaderView.swift in Sources */,
+				5B7B03412C1D94FE004B4885 /* Double + Ext.swift in Sources */,
+				5B7B02D62C065567004B4885 /* TabBarController.swift in Sources */,
+				5BBA4E5B2C1EE30B005363D6 /* Date + Ext.swift in Sources */,
+				5B7B02DE2C075611004B4885 /* HotelsCoordinator.swift in Sources */,
+				5B7B03392C1B68DF004B4885 /* SearchViewModel.swift in Sources */,
+				5B7B033B2C1B6985004B4885 /* SearchWhenCountrySelectedViewModel.swift in Sources */,
+				5B7B02EA2C0757A3004B4885 /* ProfileVC.swift in Sources */,
+				5B7B03212C138BC6004B4885 /* SearchCellHeder.swift in Sources */,
+				5B7B02B72C065303004B4885 /* AppDelegate.swift in Sources */,
+				5B7B03012C08AB76004B4885 /* AirTicketCell.swift in Sources */,
+				5B7B02E72C075718004B4885 /* SubscriptionsVC.swift in Sources */,
+				5B7B02E42C0756C2004B4885 /* QiuckVC.swift in Sources */,
+				5B7B03302C199231004B4885 /* ShowAllTicketCell.swift in Sources */,
+				5B7B02B92C065303004B4885 /* SceneDelegate.swift in Sources */,
+				5B7B030B2C0A65F1004B4885 /* BlockChoose.swift in Sources */,
+				5B7B031D2C13141A004B4885 /* SearchViewTagCell.swift in Sources */,
+				5B7B03262C16EDFE004B4885 /* ShowAllTicketVC.swift in Sources */,
+				5B7B03452C1DC6E1004B4885 /* FilterButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B7B02C12C065305004B4885 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B7B02C22C065305004B4885 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B7B02C52C065305004B4885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B7B02C62C065305004B4885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B7B02C82C065305004B4885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7B2Y45548;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlightSearch/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-44.FlightSearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5B7B02C92C065305004B4885 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R7B2Y45548;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlightSearch/SupportingFiles/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-44.FlightSearch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B7B02AE2C065303004B4885 /* Build configuration list for PBXProject "FlightSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7B02C52C065305004B4885 /* Debug */,
+				5B7B02C62C065305004B4885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B7B02C72C065305004B4885 /* Build configuration list for PBXNativeTarget "FlightSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7B02C82C065305004B4885 /* Debug */,
+				5B7B02C92C065305004B4885 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B7B02AB2C065303004B4885 /* Project object */;
+}
